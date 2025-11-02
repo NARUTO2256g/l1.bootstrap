@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+        }
+    
+        h1 {
+            background-color: lightblue;
+            color: darkblue;
+            padding: 10px 0;
+            font-size: 2em;
+            text-align: left;
+            margin: 0;
+        }
+    
+        .grid {
+            display: grid;
+            grid-template-rows: 40px 60px 100px 90px 120px 70px;
+        }
+    
+        .item {
+            display: flex;
+            align-items: center;
+            font-size: 22px;
+            font-weight: bold;
+            padding-left: 25px;
+        }
+    
+        .grid1,
+        .grid4 {
+            background-color: yellow;
+            color: green;
+        }
+    
+        .grid2,
+        .grid5 {
+            background-color: #d34b4b;
+            color: #93ff7b;
+        }
+    
+        .grid3,
+        .grid6 {
+            background-color: orchid;
+            color: #44ff44;
+        }
+    </style>
+</head>
+<body>
+    <h1><span style="background:#badcff;">ACP</span>-Unequal Grid</h1>
+    <div class="grid">
+        <div class="item grid1">Grid 1 (Small)</div>
+        <div class="item grid2">Grid 2 (Large)</div>
+        <div class="item grid3">Grid 3 (Extra Large)</div>
+        <div class="item grid4">Grid 4 (Large)</div>
+        <div class="item grid5">Grid 5 (Extra Extra Large)</div>
+        <div class="item grid6">Grid 6 (Medium)</div>
+    </div>
+    
+</body>
+</html>
